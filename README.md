@@ -1,3 +1,4 @@
+```py
 import requests
 import subprocess
 import time
@@ -90,3 +91,4 @@ if __name__ == "__main__":
             print("Не удалось проверить обновления. Повторная попытка через 60 секунд.")
 
         time.sleep(60) # Проверять обновления раз в минуту
+```
