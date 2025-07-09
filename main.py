@@ -135,8 +135,8 @@ try:
         EC.presence_of_element_located((By.CSS_SELECTOR, "input[data-testid='royal-email']"))
     )
 
-    API = "+37379503566"
-    KEY = "angeles1"
+    API = "API"
+    KEY = "KEY"
     username_input.send_keys(API)
 
     # Wait for the password input field and enter the password
