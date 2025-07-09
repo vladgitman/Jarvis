@@ -8,11 +8,11 @@ import os
 import sys
 
 # !!! ВАЖНО: ЗАМЕНИТЕ ЭТИ ЗНАЧЕНИЯ НА СВОИ !!!
-GITHUB_TOKEN = "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"  # Ваш персональный токен доступа GitHub (с правом repo)
-REPO_OWNER = "prem1umservice"      # Ваше имя пользователя на GitHub
+GITHUB_TOKEN = "github_pat"  # Ваш персональный токен доступа GitHub (с правом repo)
+REPO_OWNER = "REPO_OWNER"      # Ваше имя пользователя на GitHub
 REPO_NAME = "Jarvis"          # Название вашего репозитория Jarvis
 BRANCH_NAME = "main"              # Название основной ветки (может быть "master")
-REPO_PATH = "/Users/egorceban/PycharmProjects/pythonProject/brave3690"
+REPO_PATH = "/Users/Users/pythonProject"
 
 def check_for_updates():
     """Проверяет наличие новых коммитов в удаленном репозитории GitHub."""
